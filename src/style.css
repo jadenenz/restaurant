@@ -1,0 +1,57 @@
+body {
+    background: url('./background.jpg');
+    background-size: cover;
+}
+
+header {
+    box-sizing: border-box;
+    background-color: darkslategrey;
+    height: 55px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    padding-top: 8px;
+}
+
+nav {
+    width: 380px;
+    margin: 0 auto;
+    position: relative;
+}
+
+ul {
+    height: 45px;
+    padding-right: 20px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#content {
+    background-color: darkslategrey;
+    min-height: 50vh;
+    width: 50vw;
+    margin: 0 auto;
+    padding: 50px 450px;
+}
+
+.blurb {
+    margin: 0 auto;
+    background-color: slategrey;
+}
+
+.tabList > li {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-right: 10px;
+}
+
+ul > li {
+    flex: 1;
+}
+
+ul > li:hover {
+    background-color: darkturquoise;
+}
